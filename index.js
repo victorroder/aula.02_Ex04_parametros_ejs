@@ -42,18 +42,3 @@ app.listen(8080, (error) => {
   }
 });
 
-// ROTA PERFIL
-app.get("/perfil", (req, res) => {
-  const user = {
-    nome: "Victor",
-    email: "Victor@example.com"
-  };
-  res.render("perfil", { user });
-});
-
-// ROTA DE VÍDEOS
-app.get("/videos", (req, res) => {
-  res.
-  res
-render("videos");
-});
